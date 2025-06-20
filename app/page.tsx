@@ -20,7 +20,8 @@ export default function CarDealershipPage() {
         <Hero />
 
         {/* Search Bar */}
-        <SearchBar />
+        
+        {/* <SearchBar /> */}
 
         {/* Latest Vehicles */}
         <LatestCars />

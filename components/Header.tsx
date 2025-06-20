@@ -3,7 +3,7 @@ import { Car } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm border-b fixed top-0 left-0 w-full z-10 min-h-8">
+    <header className="bg-white shadow-sm border-b fixed top-0 left-0 w-full z-10 min-h-16">
       <div>
         <div className="flex items-center justify-between h-16">
             {/* PONER LOGO EN IMAGEN  */}
