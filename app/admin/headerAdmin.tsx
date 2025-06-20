@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Car, Menu, X } from "lucide-react"; // Agregamos Menu y X para el ícono hamburguesa
 import { useState } from "react";
 
-export default function Header() {
+export default function HeaderAdmin() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -43,7 +43,7 @@ export default function Header() {
             } md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none items-center space-y-4 md:space-y-0 md:space-x-8 py-4 md:py-0 transition-all duration-300 ease-in-out`}
           >
             <Link
-              href="#inicio"
+              href="/"
               className="text-gray-700 hover:text-[#CE987E] font-medium hover:scale-105 transition-transform"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -55,27 +55,6 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Autos
-            </Link>
-            <Link
-              href="#servicios"
-              className="text-gray-700 hover:text-[#CE987E] font-medium hover:scale-105 transition-transform"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Servicios
-            </Link>
-            <Link
-              href="#nosotros"
-              className="text-gray-700 hover:text-[#CE987E] font-medium hover:scale-105 transition-transform"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Nosotros
-            </Link>
-            <Link
-              href="#contacto"
-              className="text-gray-700 hover:text-[#CE987E] font-medium hover:scale-105 transition-transform"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contacto
             </Link>
           </nav>
         </div>
