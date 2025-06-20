@@ -54,21 +54,21 @@ export default function Contact() {
                     <MapPin className="h-5 w-5 text-[#CE987E]" />
                     <div>
                       <div className="font-semibold">Dirección</div>
-                      <div className="text-gray-600">Av. Principal 123, Ciudad</div>
+                      <div className="text-gray-600">Av. Hipolito Yrigoyen 14832, Burzaco, Buenos Aires</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Phone className="h-5 w-5 text-[#CE987E]" />
                     <div>
                       <div className="font-semibold">Teléfono</div>
-                      <div className="text-gray-600">(555) 123-4567</div>
+                      <div className="text-gray-600">+54 9 11 3743-7882</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-[#CE987E]" />
                     <div>
                       <div className="font-semibold">Email</div>
-                      <div className="text-gray-600">info@elitemotors.com</div>
+                      <div className="text-gray-600">----------</div>
                     </div>
                   </div>
                 </CardContent>
