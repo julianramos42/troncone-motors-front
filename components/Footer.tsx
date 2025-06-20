@@ -14,13 +14,13 @@ export default function Footer() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Car className="h-8 w-8 text-[#CE987E]" />
-                <span className="text-2xl font-bold">Elite Motors</span>
+                <span className="text-2xl font-bold">Troncone <span className="text-amber-500">Motors</span></span>
               </div>
               <p className="text-gray-400 mb-4">Tu concesionaria de confianza para autos nuevos y usados.</p>
-              <div className="flex space-x-4">
-                <Facebook className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
-                <Instagram className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
-                <Twitter className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" />
+              <div className="flex space-x-4">              
+                <Link href={''}><Facebook className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" /></Link>
+                <Link href={''}><Instagram className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" /></Link>
+                <Link href={''}><Twitter className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer" /></Link>               
               </div>
             </div>
 
@@ -28,8 +28,8 @@ export default function Footer() {
               <h3 className="font-semibold mb-4">Enlaces Rápidos</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <Link href="#" className="hover:text-white">
-                    Inventario
+                  <Link href="/autos" className="hover:text-white">
+                    Autos
                   </Link>
                 </li>
                 <li>
@@ -79,15 +79,15 @@ export default function Footer() {
             <div>
               <h3 className="font-semibold mb-4">Contacto</h3>
               <div className="space-y-2 text-gray-400">
-                <div>Av. Principal 123, Ciudad</div>
-                <div>(555) 123-4567</div>
-                <div>info@elitemotors.com</div>
+                <div>Av. Hipolito Yrigoyen 14832, Burzaco, Buenos Aires</div>
+                <div>+54 9 11 3743-7882</div>
+                <div>----------</div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Elite Motors. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Troncone Motors. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
