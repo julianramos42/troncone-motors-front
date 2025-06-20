@@ -1,20 +1,20 @@
-import { Button } from "@/components/ui/button"
 import Link from "next/link";
-import { Car, Phone } from 'lucide-react';
+import { Car } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm border-b">
-      <div className="container mx-auto px-4">
+    <header className="bg-white shadow-sm border-b fixed top-0 left-0 w-full z-10">
+      <div>
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-2">
+            {/* PONER LOGO EN IMAGEN  */}
+          <div className="absolute ml-5 flex items-center space-x-2">
             <Car className="h-8 w-8 text-[#CE987E]" />
             <span className="text-2xl font-bold text-gray-900">
-              Elite Motors
+              Troncone Motors
             </span>
           </div>
 
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="flex-1 flex justify-center items-center space-x-8 w-auto">
             <Link
               href="#inicio"
               className="text-gray-700 hover:text-[#CE987E] font-medium"
@@ -22,10 +22,10 @@ export default function Header() {
               Inicio
             </Link>
             <Link
-              href="#inventario"
+              href="#garage"
               className="text-gray-700 hover:text-[#CE987E] font-medium"
             >
-              Inventario
+              Garage
             </Link>
             <Link
               href="#servicios"
@@ -47,17 +47,24 @@ export default function Header() {
             </Link>
           </nav>
 
-          <div className="flex items-center space-x-4">
-            <div className="hidden lg:flex items-center space-x-2 text-sm text-gray-600">
-              <Phone className="h-4 w-4" />
-              <span>(555) 123-4567</span>
-            </div>
-            <Button className="bg-[#363435] hover:bg-[#2a2829]">
-              Financiamiento
-            </Button>
-          </div>
         </div>
       </div>
     </header>
   );
 }
+
+{/* <Link
+                href={
+                  "https://api.whatsapp.com/send?phone=+5491137437882&text=Hola,%20me%20gustaría%20obtener%20más%20información"
+                }
+                target="_blank"
+                className="hover:scale-105"
+              >
+                <Image
+                  src={"/whatsapp.png"}
+                  alt="whatsapp logo"
+                  width={30}
+                  height={30}
+                  className="rounded-lg"
+                ></Image>
+              </Link> */}
