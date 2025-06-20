@@ -41,7 +41,7 @@ export default function AboutUs() {
             </Link>
           </div>
 
-          <div className="relative flex justify-center">
+          <div className="hidden relative lg:flex justify-center">
             <Image
               src="/placeholder.svg?height=400&width=500"
               alt="Nuestro equipo"
