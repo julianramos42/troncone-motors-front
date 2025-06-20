@@ -14,7 +14,7 @@ export default function Cta() {
         </p>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.429821968297!2d-58.40701312425253!3d-34.76995327289507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ee47438781%3A0xb1295dda82e3fda1!2sTroncone%20MOTORS!5e0!3m2!1ses-419!2sar!4v1750399299798!5m2!1ses-419!2sar"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d818.7930878759342!2d-58.398373730333404!3d-34.826758897415075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ5JzM2LjMiUyA1OMKwMjMnNTEuOCJX!5e0!3m2!1ses-419!2sar!4v1750400225617!5m2!1ses-419!2sar"
             className="w-full rounded-lg shadow-lg"
             height="450"
             allowFullScreen={true}
@@ -22,7 +22,7 @@ export default function Cta() {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!4v1750399526885!6m8!1m7!1spvgHYXh1xAd4lK9sG3f0HA!2m2!1d-34.76991277362161!2d-58.4045220007042!3f94.5251477333173!4f-5.549579147992631!5f0.7820865974627469"
+            src="https://www.google.com/maps/embed?pb=!4v1750400160149!6m8!1m7!1sTvhRMgA3L6z-i39uYStpbg!2m2!1d-34.82680591012301!2d-58.39781634596893!3f108.08355760735304!4f0.7104394125189799!5f1.354682439804951"
             className="w-full rounded-lg shadow-lg"
             height="450"
             allowFullScreen={true}
