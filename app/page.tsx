@@ -8,19 +8,22 @@ import AboutUs from "@/components/AboutUs";
 import Cta from "@/components/Cta";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import WhatsappFixed from "@/components/WhatsappFixed";
 
 export default function CarDealershipPage() {
   return (
     <>
       {/* Header */}
       <Header />
-      
+
       <main className="min-h-screen bg-white">
+
+        <WhatsappFixed />
         {/* Hero Section */}
         <Hero />
 
         {/* Search Bar */}
-        
+
         {/* <SearchBar /> */}
 
         {/* Latest Vehicles */}

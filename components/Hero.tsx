@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
 import { Badge } from '@/components/ui/badge'
-import { Star } from "lucide-react"
 
 export default function Hero() {
   return (
@@ -33,15 +31,15 @@ export default function Hero() {
 
               {/* Stats */}
               <div className="grid grid-cols-3 pt-8">
-                <div>
+                <div className="text-center md:text-start">
                   <div className="text-3xl font-bold text-amber-400">500+</div>
                   <div className="text-sm text-[#E3E3E3]/80">Autos Vendidos</div>
                 </div>
-                <div>
+                <div className="text-center md:text-start">
                   <div className="text-3xl font-bold text-amber-400">98%</div>
                   <div className="text-sm text-[#E3E3E3]/80">Clientes Satisfechos</div>
                 </div>
-                <div>
+                <div className="text-center md:text-start">
                   <div className="text-3xl font-bold text-amber-400">15+</div>
                   <div className="text-sm text-[#E3E3E3]/80">Años de Experiencia</div>
                 </div>

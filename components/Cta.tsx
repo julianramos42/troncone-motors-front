@@ -12,7 +12,7 @@ export default function Cta() {
           Contáctanos hoy y te ayudaremos a encontrar el vehículo perfecto para
           ti
         </p>
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="hidden md:grid lg:grid-cols-2 gap-12 items-center">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d818.7930878759342!2d-58.398373730333404!3d-34.826758897415075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ5JzM2LjMiUyA1OMKwMjMnNTEuOCJX!5e0!3m2!1ses-419!2sar!4v1750400225617!5m2!1ses-419!2sar"
             className="w-full rounded-lg shadow-lg"
