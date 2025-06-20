@@ -17,31 +17,31 @@ export default function Header() {
           <nav className="flex-1 flex justify-center items-center space-x-8 w-auto">
             <Link
               href="#inicio"
-              className="text-gray-700 hover:text-[#CE987E] font-medium"
+              className="text-gray-700 hover:text-[#CE987E] font-medium inline-block hover:scale-105"
             >
               Inicio
             </Link>
             <Link
               href="#garage"
-              className="text-gray-700 hover:text-[#CE987E] font-medium"
+              className="text-gray-700 hover:text-[#CE987E] font-medium inline-block hover:scale-105"
             >
               Garage
             </Link>
             <Link
               href="#servicios"
-              className="text-gray-700 hover:text-[#CE987E] font-medium"
+              className="text-gray-700 hover:text-[#CE987E] font-medium inline-block hover:scale-105"
             >
               Servicios
             </Link>
             <Link
               href="#nosotros"
-              className="text-gray-700 hover:text-[#CE987E] font-medium"
+              className="text-gray-700 hover:text-[#CE987E] font-medium inline-block hover:scale-105"
             >
               Nosotros
             </Link>
             <Link
               href="#contacto"
-              className="text-gray-700 hover:text-[#CE987E] font-medium"
+              className="text-gray-700 hover:text-[#CE987E] font-medium inline-block hover:scale-105"
             >
               Contacto
             </Link>
