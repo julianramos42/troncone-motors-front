@@ -22,10 +22,10 @@ export default function Header() {
               Inicio
             </Link>
             <Link
-              href="#garage"
+              href="/autos"
               className="text-gray-700 hover:text-[#CE987E] font-medium inline-block hover:scale-105"
             >
-              Garage
+              Autos
             </Link>
             <Link
               href="#servicios"
