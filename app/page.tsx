@@ -7,8 +7,8 @@ import Testimonials from "@/components/Testimonials";
 import AboutUs from "@/components/AboutUs";
 import Cta from "@/components/Cta";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 import WhatsappFixed from "@/components/WhatsappFixed";
+import Footer from "@/components/Footer";
 
 export default function CarDealershipPage() {
   return (
@@ -43,10 +43,10 @@ export default function CarDealershipPage() {
 
         {/* Contact */}
         <Contact />
-      </main>
 
-      {/* Footer */}
-      <Footer />
+        {/* Footer */}
+        <Footer />
+      </main>
     </>
   );
 }
